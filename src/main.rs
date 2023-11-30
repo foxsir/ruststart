@@ -1,6 +1,6 @@
 mod syntax;
 
-use syntax::control_flow::run;
+use syntax::ownership::run;
 
 fn main() {
     run()
