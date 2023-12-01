@@ -1,6 +1,6 @@
 mod syntax;
 
-use syntax::ownership::run;
+use syntax::references_and_borrowing::run;
 
 fn main() {
     run()
