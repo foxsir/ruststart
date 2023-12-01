@@ -33,11 +33,26 @@ pub fn run() {
 
     let s = String::from("hello");
     ownership(s);
-    println!("{}", s)
+
+    let w = gives_ownership();
+
+    println!("{}", w);
 }
 
 
 
 fn ownership(x: String) {
     println!("{}", x)
+}
+
+
+fn gives_ownership() -> String {             // gives_ownership will move its
+    // return value into the function
+    // that calls it
+
+    let some_string = String::from("yours"); // some_string comes into scope
+
+    some_string                              // some_string is returned and
+    // moves out to the calling
+    // function
 }
