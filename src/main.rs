@@ -1,6 +1,6 @@
 mod syntax;
 
-use syntax::references_and_borrowing::run;
+use syntax::slices::run;
 
 fn main() {
     run()
