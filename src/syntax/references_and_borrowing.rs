@@ -27,7 +27,18 @@ pub fn run() {
     r3.push_str("xxxx");
     println!("{}", r3);
 
-    let _ = dangle();
+    let s = dangle();
+
+    let sp = s.as_bytes();
+
+    let sp1 = sp;
+    println!("first letter: {}", *sp1.get(0).unwrap() as char);
+
+    for (i, &item) in sp.iter().enumerate() {
+        println!("{}: {}", i, item as char);
+    }
+
+    println!("============");
 }
 
 fn calculate_length(s1: &String) -> usize {
