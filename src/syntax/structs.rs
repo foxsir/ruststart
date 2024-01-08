@@ -12,6 +12,7 @@ pub fn run() {
         email: String::from("email"),
         sign_in_count: 10
     };
+
     println!("{} sign count {}", user.email, user.sign_in_count);
 
     let u2 = User {
