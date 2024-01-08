@@ -7,4 +7,5 @@
 // pub mod control_flow;
 // pub mod ownership;
 // pub mod references_and_borrowing;
-pub mod slices;
+// pub mod slices;
+pub mod structs;
