@@ -1,6 +1,6 @@
 mod syntax;
 
-use syntax::structs::run;
+use syntax::method_syntax::run;
 
 fn main() {
     run()

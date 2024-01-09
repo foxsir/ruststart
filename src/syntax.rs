@@ -8,4 +8,4 @@
 // pub mod ownership;
 // pub mod references_and_borrowing;
 // pub mod slices;
-pub mod structs;
+pub mod method_syntax;
