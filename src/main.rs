@@ -1,6 +1,6 @@
 mod syntax;
 
-use syntax::method_syntax::run;
+use syntax::enum_coin::run;
 
 fn main() {
     run()

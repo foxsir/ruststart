@@ -8,4 +8,4 @@
 // pub mod ownership;
 // pub mod references_and_borrowing;
 // pub mod slices;
-pub mod method_syntax;
+pub mod enum_coin;
