@@ -9,4 +9,5 @@
 // pub mod references_and_borrowing;
 // pub mod slices;
 // pub mod enum_coin;
-pub mod common_collections;
+// pub mod common_collections;
+pub mod hash_map;

@@ -1,7 +1,7 @@
 mod syntax;
 mod mods;
 
-use syntax::common_collections::run;
+use syntax::hash_map::run;
 
 fn main() {
     run();
