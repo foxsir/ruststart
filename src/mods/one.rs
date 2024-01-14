@@ -1,5 +1,5 @@
 pub mod one {
-    pub fn call() {
+    pub fn _call() {
         println!("one")
     }
 }
