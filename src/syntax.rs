@@ -10,4 +10,5 @@
 // pub mod slices;
 // pub mod enum_coin;
 // pub mod common_collections;
-pub mod error_handling;
+// pub mod error_handling;
+pub mod generic_types;

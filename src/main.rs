@@ -1,14 +1,14 @@
 mod syntax;
 mod mods;
-mod guess_the_number;
+// mod guess_the_number;
 
-use syntax::error_handling::run;
+use syntax::generic_types::run;
 
 
 fn main() {
     run();
 
-    guess_the_number::run();
+    // guess_the_number::run();
 
 
     // 使用绝对路径
